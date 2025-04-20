@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(212, 212, 212);
+    background-color: rgb(32, 40, 51);
+}
+
+.image {
+    height: 45%;
+    width: 45%;
+}
+
+.inputText{
+    margin: 5px;
+    background-color: rgb(32, 40, 51);
+    color: rgb(212, 212, 212);
+}
+
+.sendButton{
+    background-color: rgb(32, 40, 51);
+    color: rgb(212, 212, 212);
+}
