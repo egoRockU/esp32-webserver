@@ -7,10 +7,11 @@ document.addEventListener('DOMContentLoaded', function(){
     
         let message = txtElement.value;
     
-        fetch('http://localhost:5000/message', {
+        fetch('https://modern-snake-evenly.ngrok-free.app/message', {
             method: 'POST',
             headers: {
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+                'ngrok-skip-browser-warning': 'sige'
             },
             body: JSON.stringify({message})
         }).then( res => {
